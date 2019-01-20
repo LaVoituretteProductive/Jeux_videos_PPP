@@ -14,6 +14,15 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'exo-light';
+    src: url('fonts/exo-light-webfont.woff2') format('woff2'),
+         url('fonts/exo-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -40,6 +49,10 @@ h1,h2{
 
 h3,h4,h5,h6{
     font-family: Orbitron-Regular;
+}
+
+p{
+    font-family: "exo-light";
 }
 
 header h1{
